@@ -1,0 +1,8 @@
+[package]
+name = "async-graph-bug"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-graphql = "7.0.14"
+tokio = { version = "1.43.0", features = ["full"] }
